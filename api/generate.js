@@ -17,7 +17,7 @@ export default async function handler(req, res) {
 
   try {
     const url =
-      'https://generativelanguage.googleapis.com/v1/models/gemini-flash-latest:generateContent';
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent';
 
     const response = await fetch(url, {
       method: 'POST',
