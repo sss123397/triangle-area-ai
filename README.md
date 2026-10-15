@@ -1,6 +1,6 @@
 # 📐 AI Triangle Area — Differentiated Learning
 
-An AI-powered web application that takes a **single core geometry task** — finding the area of a triangle — and dynamically adapts it into **four distinct difficulty levels** using a Large Language Model (OpenAI GPT-4o-mini).
+An AI-powered web application that takes a **single core geometry task** — finding the area of a triangle — and dynamically adapts it into **four distinct difficulty levels** using a Large Language Model (Google Gemini).
 
 This project demonstrates how Artificial Intelligence can personalize educational content to match diverse learner capabilities, providing tailored hints and step-by-step solutions for each level.
 
@@ -8,7 +8,7 @@ This project demonstrates how Artificial Intelligence can personalize educationa
 
 ## 🌐 Live Demo
 
-**🔗 https://YOUR-APP-NAME.vercel.app**
+**🔗 https://triangle-area-ai.vercel.app**
 
 ---
 
@@ -28,7 +28,7 @@ The core objective of this application is **differentiated learning**: the same 
 ## ✨ Features
 
 - **Four differentiated levels** — from simple plug-in to multi-step coordinate geometry
-- **Dynamic AI task generation** — every task is generated fresh by GPT-4o-mini
+- **Dynamic AI task generation** — every task is generated fresh by Google Gemini
 - **Interactive SVG visualization** — each triangle is drawn to scale with labeled vertices and height
 - **Instant answer checking** — with a 1% tolerance for floating-point answers
 - **Progressive hints** — hidden by default, revealed on demand
